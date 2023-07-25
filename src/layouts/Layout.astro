@@ -54,8 +54,9 @@ console.log("\n  Cristian \n")
 					// View Transition API
 					document.startViewTransition( () => {
 						// como tiene que actualizar la vista
-						document.body.innerHTML = data
-						document.documentElement.scrollTop = 0
+						document.documentElement.scrollTop = 0;
+						document.body.innerHTML = data;
+						console.log(data);
 					})
 				}
 			})
@@ -63,3 +64,5 @@ console.log("\n  Cristian \n")
 	}
 
 </script>
+
+
